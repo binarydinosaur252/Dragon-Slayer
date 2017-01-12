@@ -21,3 +21,8 @@ print "use the command Pickup to take treasure and pick up things." + "\n\n\n\n\
 name = raw_input("What is your name?: ")
 name = str(name)
 print "greetings, " + name + " I have a quest for you" + "\n"
+
+print "here are your weapons" + "\n\n"
+
+print "YOU GOT A SWORD AND A MAGIC STAFF!"
+
