@@ -1,1 +1,2 @@
-class person()
+class person():
+class goblin():
