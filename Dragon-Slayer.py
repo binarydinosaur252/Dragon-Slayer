@@ -15,7 +15,7 @@ print "and now for the rules."
 sleep(3)
 print "use the command Fight to slay evil creatures (but don't kill the good guys!)"
 sleep(3)
-print "use the command Pickup to take treasure and pick up things." + "\n\n\n\n\n" 
+print "use the command Pickup to take treasure and pick up things." + "\n\n\n\n\n"
 
 #game start
 name = raw_input("What is your name?: ")
@@ -24,5 +24,5 @@ print "greetings, " + name + " I have a quest for you" + "\n"
 
 print "here are your weapons" + "\n\n"
 
-print "YOU GOT A SWORD AND A MAGIC STAFF!"
+print "YOU GOT A SWORD!"
 
