@@ -1,2 +1,2 @@
 class person():
-    x = 0
+class goblin():
