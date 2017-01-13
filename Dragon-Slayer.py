@@ -1,4 +1,5 @@
 import random
+import characters
 from time import sleep
 
 print "DRAGON SLAYER"
