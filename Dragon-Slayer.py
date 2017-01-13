@@ -28,10 +28,11 @@ print "YOU GOT A SWORD!"
 sleep(2)
 
 todo1 = raw_input("what do you do now? : ")
-if todo1 == "explore":
+if todo1 == "Explore":
    print "you look around and the wizard who gave you the sword" + "\n" "seems to have dissapeared"
-elif todo1 == "attack":
+elif todo1 == "Fight":
     print "You swing your sword and don't hit anything"
-    
+elif todo1 == "Pick up":
+    print "You get 50 peices of gold that were hidden under a rock!"   
 
 
