@@ -25,4 +25,13 @@ print "greetings, " + name + " I have a quest for you" + "\n"
 print "here are your weapons" + "\n\n"
 
 print "YOU GOT A SWORD!"
+sleep(2)
+
+todo1 = raw_input("what do you do now? : ")
+if todo1 == "explore":
+   print "you look around and the wizard who gave you the sword" + "\n" "seems to have dissapeared"
+elif todo1 == "attack":
+    print "You swing your sword and don't hit anything"
+    
+
 
