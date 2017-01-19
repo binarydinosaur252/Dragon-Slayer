@@ -1,4 +1,6 @@
 class person():
-    x=1
+    hp = 3
+    atk = 1
 class goblin():
-    x=1
+    hp = 2
+    atk = 1
