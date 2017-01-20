@@ -40,12 +40,21 @@ while leave != "y":
       print ("You swing your sword and don't hit anything")
    elif todo1 == ("Get"):
       print ("You get 50 peices of gold that were hidden under a rock!")
-   elif todo1 == ("31415")
-      print ("YOU WIN")
    elif todo1 == ("Look"):
       print ("You see stuff in the room!")
    else :
       print ("I don't know how to " +todo1+ " because my programers didn't want to spend the time to make that work")
 print ("You walk outside and see the a little town busy with people")
 
-print
+leave = "n"
+while leave != "y":
+    todo2 = input("what do you do now warrior? : ")
+    if todo2 == ("Explore"):
+        print ("You walk into the town and see an old woman selling magic items")
+    elif todo2 == ("Fight"):
+        print ("You start to swing your sword and get it stuck in a tree")
+    elif todo2 == ("Talk"):
+        print ("The old woman sees you and runs off leaving behind" + "\n" "A POTION OF HEALING")
+    elif todo2 == ("Leave"):
+        leave = input("do you want to leave y/n: ") 
+    
