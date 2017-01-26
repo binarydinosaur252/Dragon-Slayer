@@ -2,7 +2,9 @@ import random
 import characters
 from time import sleep
 
-print ("DRAGON SLAYER")
+with open ('asciiart/dragon2') as dragon2:
+    for line in dragon2:
+        print (line, end ='')
 print ("designed and developed by Cyrus Burt and Eric Matt" + "\n")
 sleep(5)
 
