@@ -44,3 +44,4 @@ print (levels.rooms(4,4))
 room1 = room.room(0,1,1,1,"Sword")
 
 print (room1[1])
+print (levels.rooms(0,0))
