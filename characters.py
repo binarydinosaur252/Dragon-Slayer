@@ -4,3 +4,6 @@ class person():
 class goblin():
     hp = 2
     atk = 1
+class dragon():
+    hp = 10
+    atk = 3
