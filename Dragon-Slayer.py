@@ -27,9 +27,17 @@ name = input("What is your name?: ")
 name = str(name)
 print ("greetings, " + name + " I have a quest for you" + "\n")
 
+sleep(2)
+
 print ("here are your weapons" + "\n\n")
 
+sleep(1)
+
 print ("YOU GOT A SWORD!")
+with open ('asciiart/sword1') as sword1:
+    for line in sword1:
+        print (line, end ='')
+
 sleep(2)
 
 leave = "n"
