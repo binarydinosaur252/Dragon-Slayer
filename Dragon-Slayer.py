@@ -58,11 +58,11 @@ print ("You walk outside and see the a little town busy with people")
 
 leave = "n"
 while leave != "y":
-    todo2 = input("what do you do now warrior? : ")
+    todo2 = input("You walk into the town and see an old woman selling magic items. What do you do now warrior? : ")
     if todo2 == ("Explore"):
-        print ("You walk into the town and see an old woman selling magic items")
+        print ("You walk through the town and don't see much.")
     elif todo2 == ("Fight"):
-        print ("You start to swing your sword and get it stuck in a tree")
+        print ("You start to swing your sword and stab the old woman selling potions")
     elif todo2 == ("Talk"):
         print ("The old woman sees you and runs off leaving behind" + "\n" "A POTION OF HEALING")
     elif todo2 == ("Leave"):
