@@ -5,7 +5,7 @@ from time import sleep
 with open ('asciiart/dragon2') as dragon2:
     for line in dragon2:
         print (line, end ='')
-print ("designed and developed by Cyrus Burt and Eric Matt" + "\n")
+print ("Designed and developed by Cyrus Burt and Eric Matt" + "\n")
 sleep(5)
 
 #game intro
@@ -54,6 +54,8 @@ while leave != "y":
       print ("You see stuff in the room!")
    else :
       print ("I don't know how to " +todo1+ " because my programers didn't want to spend the time to make that work")
+      print ("You can Get, Look, Explore, and Fight")
+             
 print ("You walk outside and see the a little town busy with people")
 
 leave = "n"
