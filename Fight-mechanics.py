@@ -1,7 +1,7 @@
 
 a = 0
 while a != 3:
-    todo1 = input("What do you do now: ")
+    todo1 = input("You have been attacked what do you do: ")    
     if todo1 == ("Fight"):
         print("You hit the goblin")
         a = a + 1
